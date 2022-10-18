@@ -17,4 +17,5 @@ def list_min(li):
 
 if __name__ == '__main__':
     sp = list(map(float, input("Введите список чисел: ").split(' ')))
-    print(list_min(sp))
+    c = list_min(sp)
+    print(f"Минимальный элемент списка: {c}")

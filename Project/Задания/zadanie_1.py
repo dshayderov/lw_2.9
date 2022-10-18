@@ -69,9 +69,9 @@ def fib(n):
 
 
 if __name__ == '__main__':
-    print('Результат рекурсивного факториала:', timeit.timeit(setup=fact_rec, number=1000))
-    print('Результат рекурсивного числа Фибоначи:', timeit.timeit(setup=fib_rec, number=1000))
-    print('Результат итеративного факториала:', timeit.timeit(setup=fact_itr, number=1000))
-    print('Результат итеративного числа Фибоначи:', timeit.timeit(setup=fib_itr, number=1000))
-    print('Результат факториала с декоратором:', timeit.timeit(setup=fact_lru, number=1000))
-    print('Результат числа Фибоначи с декоратором:', timeit.timeit(setup=fib_lru, number=1000))
+    print('Рекурсивный факториал:', timeit.timeit(setup=fact_rec, number=1000))
+    print('Рекурсивное число Фибоначи:', timeit.timeit(setup=fib_rec, number=1000))
+    print('Итеративный факториал:', timeit.timeit(setup=fact_itr, number=1000))
+    print('Итеративное число Фибоначи:', timeit.timeit(setup=fib_itr, number=1000))
+    print('Факториал с декоратором:', timeit.timeit(setup=fact_lru, number=1000))
+    print('Число Фибоначи с декоратором:', timeit.timeit(setup=fib_lru, number=1000))

@@ -72,7 +72,7 @@ def fib(i, current = 0, next = 1):
 '''
 
 if __name__ == '__main__':
-    print('Результат факториала:', timeit.timeit(setup=no_intr_fact, number=1000))
-    print('Результат числа Фибоначи:', timeit.timeit(setup=no_intr_fib, number=1000))
-    print('Результат факториала с интроспекцией стека:', timeit.timeit(setup=intr_fact, number=1000))
-    print('Результат числа Фибоначи с интроспекцией стека:', timeit.timeit(setup=intr_fib, number=1000))
+    print('Факториал:', timeit.timeit(setup=no_intr_fact, number=1000))
+    print('Число Фибоначи:', timeit.timeit(setup=no_intr_fib, number=1000))
+    print('Факториал с интроспекцией стека:', timeit.timeit(setup=intr_fact, number=1000))
+    print('Число Фибоначи с интроспекцией стека:', timeit.timeit(setup=intr_fib, number=1000))
